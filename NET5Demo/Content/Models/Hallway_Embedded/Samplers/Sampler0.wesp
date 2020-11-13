@@ -1,0 +1,21 @@
+!WaveEngine.Assets.Exporters.SamplerMetaFile,WaveEngine.Assets
+Id: bec1c9f0-ce9b-4714-a837-ff3d8c1cc279
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+  SamplerInfo:
+    Id: 4275b9ba-90f5-44e8-ab59-95ca6f637251
+    Description:
+      AddressU: Wrap
+      AddressV: Wrap
+      AddressW: Clamp
+      BorderColor: OpaqueWhite
+      ComparisonFunc: Never
+      Filter: MinLinear_MagLinear_MipLinear
+      MaxAnisotropy: 1
+      MaxLOD: 1000.0
+      MinLOD: -1000.0
+      MipLODBias: 0.0
+ExportAsRaw: false
+Profiles: {}

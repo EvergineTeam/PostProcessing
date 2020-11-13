@@ -1,0 +1,43 @@
+!WaveEngine.Assets.Exporters.ModelMetaFile,WaveEngine.Assets
+Id: 1cb061b3-b190-4908-99fa-92848874195b
+Clips: []
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAnimations: true
+ExportAsRaw: false
+GenerateTangentSpace: true
+Profiles: {}
+Source:
+  Header:
+    Id: e259c430-9b39-440a-b425-a9646e862d7a
+    IsCompressed: true
+  LastModified: 0001-01-01T00:00:00.0000000
+  ModelInfo:
+    Id: db318856-98fe-4b87-b978-8d533925d2c0
+    AnimationTracks: []
+    EmbeddedResources: null
+    Materials:
+      - Item1: stand content
+        Item2: a7ce4331-fbfd-4629-8319-adfe5790435f
+      - Item1: Glass
+        Item2: 166bc70c-212f-41ac-86bf-ea92b5053b2c
+      - Item1: wire
+        Item2: 10db4604-523e-44d1-be84-af8b2155188d
+      - Item1: black_plastic
+        Item2: a7d79bfb-3211-44eb-9560-e1b967d75f42
+      - Item1: 'Material #28'
+        Item2: a7c274ad-56cc-4690-a0e9-13b5f701c359
+      - Item1: blue floor
+        Item2: 899e5466-c589-487f-83ec-88241f57cbea
+      - Item1: Walls
+        Item2: 13b00152-9181-4717-b855-efa8e93ba111
+    Nodes:
+      - RootNode
+      - RootNode.stends
+      - RootNode.glass
+      - RootNode.cables
+      - RootNode.grabbers
+      - RootNode.Building
+SwapWindingOrder: false

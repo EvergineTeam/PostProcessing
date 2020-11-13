@@ -1,0 +1,38 @@
+!WaveEngine.Assets.Exporters.MaterialMetaFile,WaveEngine.Assets
+Id: 166bc70c-212f-41ac-86bf-ea92b5053b2c
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAsRaw: false
+MaterialInfo:
+  Id: 5af21017-4deb-4f41-a9ae-91107bc3789c
+  ActiveDirectives:
+    - IBL
+    - LIT
+  AllowInstancing: false
+  EffectID: b4c92a2b-d3ce-4c47-8fc5-9e923665240d
+  Layer: 0db59561-b3f5-444f-b5de-e62e3a5b42bf
+  OrderBias: 0
+  Parameters:
+    - Name: WorldViewProj
+      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      ValueByteArray: FqySQAAAAAAAAAAAAAAAAAAAAACYMopADf9kvzD5ZL8AAAAAmjIKwAv/5L8u+eS/AAAAAHmCGjUf7ItAvRuPQA==
+    - Name: World
+      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      ValueByteArray: AAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAPw==
+    - Name: Color
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: AACAPwAAgD/NzMw+
+    - Name: Intensity
+      Type: System.Single
+      ValueByteArray: AACAQA==
+    - Name: Roughness
+      Type: System.Single
+      ValueByteArray: mpkZPw==
+    - Name: Metallic
+      Type: System.Single
+      ValueByteArray: zcxMPg==
+  Samplers: null
+  Textures: null
+Profiles: {}
