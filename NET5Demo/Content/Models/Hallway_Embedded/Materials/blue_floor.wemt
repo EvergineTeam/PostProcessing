@@ -6,7 +6,7 @@ DefaultProfile:
   Platform: Undefined
 ExportAsRaw: false
 MaterialInfo:
-  Id: 16e52694-0da1-4b17-9c7d-4709bc637f84
+  Id: 21546374-93e3-4435-b0f5-00bd15f72909
   ActiveDirectives:
     - DIFF
   AllowInstancing: false
@@ -58,10 +58,10 @@ MaterialInfo:
       ValueByteArray: AACAPw==
     - Name: Metallic
       Type: System.Single
-      ValueByteArray: zcxMPg==
+      ValueByteArray: AAAAPw==
     - Name: Roughness
       Type: System.Single
-      ValueByteArray: mpkZPw==
+      ValueByteArray: mpmZPg==
     - Name: Reflectance
       Type: System.Single
       ValueByteArray: AAAAPw==
@@ -91,7 +91,7 @@ MaterialInfo:
       ValueByteArray: AAAAAA==
     - Name: IrradianceSH
       Type: WaveEngine.Mathematics.Vector4,WaveEngine.Mathematics
-      ValueByteArray: GFwDP5oR+D5ceh0/AAAAAA==
+      ValueByteArray: QAAAACUAAABaAAADAGAQAA==
   Samplers:
     - ID: 7d1e2792-2031-42bb-a67c-0dbd282be12a
       Name: BaseColorSampler

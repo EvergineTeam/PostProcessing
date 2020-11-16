@@ -11,7 +11,7 @@ namespace NET5Demo.Windows.Vulkan
         static void Main(string[] args)
         {
             // Create app
-            MyApplication application = new MyApplication();
+            DemoApplication application = new DemoApplication();
 
             // Create Services
             uint width = 1280;

@@ -6,7 +6,7 @@ DefaultProfile:
   Platform: Undefined
 ExportAsRaw: false
 MaterialInfo:
-  Id: e58783a1-c863-4e39-a561-fac6066b6410
+  Id: 2eb2a5b3-81c6-4051-8c54-c3a35c8fa81b
   ActiveDirectives:
     - DIFF
   AllowInstancing: false
@@ -58,10 +58,10 @@ MaterialInfo:
       ValueByteArray: AACAPw==
     - Name: Metallic
       Type: System.Single
-      ValueByteArray: zcxMPg==
+      ValueByteArray: AAAAPw==
     - Name: Roughness
       Type: System.Single
-      ValueByteArray: mpkZPw==
+      ValueByteArray: zczMPg==
     - Name: Reflectance
       Type: System.Single
       ValueByteArray: AAAAPw==

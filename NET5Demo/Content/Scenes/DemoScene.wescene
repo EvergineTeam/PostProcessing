@@ -673,7 +673,7 @@ Items:
             FarPlane: 1000.0
             FieldOfView: 0.785398185
             FieldOfViewAxis: Vertical
-            FocalDistance: 1.0
+            FocalDistance: 7.32386637
             FocalLength: 50.0
             FrustumCullingEnabled: true
             HDREnabled: true
@@ -681,9 +681,9 @@ Items:
             LayerMaskDefaultValue: true
             LinearBackgroundColor:
               A: 1.0
-              B: 0.851251662
-              G: 0.306634784
-              R: 0.12752977
+              B: 0.819963694
+              G: 0.819963694
+              R: 0.819963694
             LogLuminanceRange: 12.0
             MinLogLuminance: -10.0
             NearPlane: 0.100000001
@@ -705,6 +705,10 @@ Items:
               Y: 1.0
               Z: 0.0
             UsePhysicalParameters: false
+          - !NET5Demo.Behaviors.AutoFocusBehavior,NET5Demo
+            Id: 037b9fe5-1da4-4140-8cc1-f18eff3d4d4c
+            IsEnabled: true
+            UpdateOrder: 0.5
         Children: []
         Id: da95301d-4dc3-4578-a49d-5347d44d9209
       - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
@@ -852,4 +856,57 @@ Items:
         Children: []
         Id: 5fa35a61-78dd-460a-ad77-6d4e0f7ca84f
     Id: 414127ff-17b4-4c9e-a3c9-ba07715a3af7
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: PostProcesingVolume
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 0af9d44a-0588-4f12-9baa-a823e4f5ebf0
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !WaveEngine.Components.Graphics3D.PostProcessingGraphRenderer,WaveEngine.Components
+        Id: 940cc7dc-0c3e-49b3-9eb0-7c208e591f8a
+        DebugBoundingbox: true
+        FrustumCullingEnabled: true
+        IsEnabled: true
+        LayerOrder: 10
+        OrderBias: 0
+        ppGraph: dd593717-0922-4f58-9c85-c309658eff03
+      - !WaveEngine.Framework.Physics3D.BoxCollider3D,WaveEngine.Framework
+        Id: dfd568bc-bf2e-40af-b71a-384a22664f3c
+        IsEnabled: true
+        Margin: 0.0399999991
+        Offset:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        OrientationOffset:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Size:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !NET5Demo.Behaviors.ControlBehavior,NET5Demo
+        Id: 9289c9b5-db89-4b8d-a8b4-6e9eac2789bb
+        IsEnabled: true
+        UpdateOrder: 0.5
+    Children: []
+    Id: 1dd0362c-1cbf-4ba7-98fe-0760efc34f51
 Managers: []
