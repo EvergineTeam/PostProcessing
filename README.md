@@ -2,11 +2,11 @@
 
 ## Introduction
 
-![alt Screenshot0](https://github.com/Jorgemagic/CSharpDirectXRaytracing/blob/master/Screenshots/image00.png)
+![alt Screenshot0](https://github.com/WaveEngine/NET5Demo/blob/master/Screenshots/image00.png)
 
-![alt Screenshot0](https://github.com/Jorgemagic/CSharpDirectXRaytracing/blob/master/Screenshots/image01.png)
+![alt Screenshot0](https://github.com/WaveEngine/NET5Demo/blob/master/Screenshots/image01.png)
 
-![alt Screenshot0](https://github.com/Jorgemagic/CSharpDirectXRaytracing/blob/master/Screenshots/image02.png)
+![alt Screenshot0](https://github.com/WaveEngine/NET5Demo/blob/master/Screenshots/image02.png)
 
 ## Getting Started
 
