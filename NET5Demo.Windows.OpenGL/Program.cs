@@ -4,7 +4,7 @@ using WaveEngine.Framework;
 using WaveEngine.Framework.Graphics;
 using WaveEngine.Framework.Services;
 
-namespace NET5Demo.Windows
+namespace NET5Demo.Windows.OpenGL
 {
     class Program
     {
@@ -18,7 +18,7 @@ namespace NET5Demo.Windows
             uint height = 720;
             WindowsSystem windowsSystem = new WaveEngine.Forms.FormsWindowsSystem();
             application.Container.RegisterInstance(windowsSystem);
-            var window = windowsSystem.CreateWindow("NET5Demo", width, height);
+            var window = windowsSystem.CreateWindow("NET5Demo - OpenGL", width, height);
 
             ConfigureGraphicsContext(application, window);
 			
@@ -44,7 +44,7 @@ namespace NET5Demo.Windows
 
         private static void ConfigureGraphicsContext(Application application, Window window)
         {
-            GraphicsContext graphicsContext = new WaveEngine.DirectX11.DX11GraphicsContext();
+            GraphicsContext graphicsContext = new WaveEngine.OpenGL.GLGraphicsContext();
             graphicsContext.CreateDevice();
             SwapChainDescription swapChainDescription = new SwapChainDescription()
             {

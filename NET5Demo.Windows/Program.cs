@@ -4,7 +4,7 @@ using WaveEngine.Framework;
 using WaveEngine.Framework.Graphics;
 using WaveEngine.Framework.Services;
 
-namespace NET5Demo.Windows.Vulkan
+namespace NET5Demo.Windows
 {
     class Program
     {
@@ -18,7 +18,7 @@ namespace NET5Demo.Windows.Vulkan
             uint height = 720;
             WindowsSystem windowsSystem = new WaveEngine.Forms.FormsWindowsSystem();
             application.Container.RegisterInstance(windowsSystem);
-            var window = windowsSystem.CreateWindow("NET5Demo", width, height);
+            var window = windowsSystem.CreateWindow("NET5Demo - DX11", width, height);
 
             ConfigureGraphicsContext(application, window);
 			
@@ -44,7 +44,7 @@ namespace NET5Demo.Windows.Vulkan
 
         private static void ConfigureGraphicsContext(Application application, Window window)
         {
-            GraphicsContext graphicsContext = new WaveEngine.Vulkan.VKGraphicsContext();
+            GraphicsContext graphicsContext = new WaveEngine.DirectX11.DX11GraphicsContext();
             graphicsContext.CreateDevice();
             SwapChainDescription swapChainDescription = new SwapChainDescription()
             {
