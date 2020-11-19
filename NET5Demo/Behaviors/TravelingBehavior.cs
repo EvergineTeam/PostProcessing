@@ -19,6 +19,7 @@ namespace NET5Demo.Behaviors
 
         private int current = 0;
         private Transform3D to;
+        private bool animating;
 
         public float SmoothTime { get; set; }
 
@@ -27,6 +28,7 @@ namespace NET5Demo.Behaviors
             this.points = new List<Transform3D>();
             this.velocity = Vector3.Zero;
             this.SmoothTime = 3.0f;
+            this.animating = false;
         }
 
         protected override bool OnAttached()
@@ -58,39 +60,47 @@ namespace NET5Demo.Behaviors
                 return;
             }
 
-            if (keyboardDispacher.IsKeyDown(Keys.T))
+            if (keyboardDispacher.ReadKeyState(Keys.T) == WaveEngine.Common.Input.ButtonState.Pressing)
             {
-                this.current = 0;
-                this.CameraTransform.Position = this.points[current].Position;
-                this.CameraTransform.Rotation = this.points[current].Rotation;
-                this.to = this.points[current + 1];
-                this.traveling = true;
+                this.animating = !this.animating;
+                this.traveling = false;
             }
 
-            if (traveling)
+            if (this.animating)
             {
-
-                this.CameraTransform.Position = Vector3.SmoothDamp(this.CameraTransform.Position, to.Position, ref velocity, this.SmoothTime, (float)gameTime.TotalSeconds);
-
-                if (Vector3.DistanceSquared(this.CameraTransform.Position, to.Position) < 0.05f)
+                if (!this.traveling)
                 {
-                    current += 2;
-                    if (current < this.points.Count)
+                    this.current = 0;
+                    this.CameraTransform.Position = this.points[current].Position;
+                    this.CameraTransform.Rotation = this.points[current].Rotation;
+                    this.to = this.points[current + 1];
+                    this.traveling = true;
+                }
+                else
+                {
+                    this.CameraTransform.Position = Vector3.SmoothDamp(this.CameraTransform.Position, to.Position, ref velocity, this.SmoothTime, (float)gameTime.TotalSeconds);
+
+                    if (Vector3.DistanceSquared(this.CameraTransform.Position, to.Position) < 0.05f)
                     {
-                        this.CameraTransform.Position = this.points[current].Position;
-                        this.CameraTransform.Rotation = this.points[current].Rotation;
-                        to = this.points[current + 1];
-                    }
-                    else
-                    {
-                        //traveling = false;
-                        this.current = 0;
-                        this.CameraTransform.Position = this.points[current].Position;
-                        this.CameraTransform.Rotation = this.points[current].Rotation;
-                        this.to = this.points[current + 1];
+                        current += 2;
+                        if (current < this.points.Count)
+                        {
+                            this.CameraTransform.Position = this.points[current].Position;
+                            this.CameraTransform.Rotation = this.points[current].Rotation;
+                            to = this.points[current + 1];
+                        }
+                        else
+                        {
+                            //traveling = false;
+                            this.current = 0;
+                            this.CameraTransform.Position = this.points[current].Position;
+                            this.CameraTransform.Rotation = this.points[current].Rotation;
+                            this.to = this.points[current + 1];
+                        }
                     }
                 }
             }
         }
     }
 }
+
