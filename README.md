@@ -14,7 +14,7 @@ Required Visual Studio 16.8 with .NET5 support
 
 ### Special Keys
  * W,S,D,A: Camera movement.
- * T: Start camera traveling animation
+ * T: Enable/Disable camera traveling animation
  * 1: Enable/Disable SSAO
  * 2: Enable/Disable SSR
  * 3: Enable/Disable DoF
