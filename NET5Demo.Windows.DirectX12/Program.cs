@@ -45,6 +45,10 @@ namespace NET5Demo.Windows.DirectX12
         private static void ConfigureGraphicsContext(Application application, Window window)
         {
             GraphicsContext graphicsContext = new WaveEngine.DirectX12.DX12GraphicsContext();
+
+            graphicsContext.DefaultTextureUploaderSize = 256 * 1024 * 1024;
+            graphicsContext.DefaultBufferUploaderSize = 64 * 1024 * 1024;
+
             graphicsContext.CreateDevice();
             SwapChainDescription swapChainDescription = new SwapChainDescription()
             {
