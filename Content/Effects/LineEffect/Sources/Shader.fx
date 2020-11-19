@@ -14,9 +14,9 @@ cbuffer PerDrawCall : register(b0)
 cbuffer PerCamera : register(b1)
 {
 	float3		CameraPosition			: packoffset(c0.x); [CameraPosition]
-	float4x4	ViewProj[2]				: packoffset(c1.x); [StereoCameraViewProjection]
-	float4		StereoCameraPosition[2]	: packoffset(c9.x); [StereoCameraPosition]
-	int			EyeCount				: packoffset(c11.x); [StereoEyeCount]
+	int			EyeCount				: packoffset(c0.w); [MultiviewCount]
+	float4x4	ViewProj[6]				: packoffset(c1.x); [MultiviewViewProjection]
+	float4		StereoCameraPosition[6]	: packoffset(c25.x); [MultiviewPosition]
 };
 
 cbuffer Parameters : register(b2)

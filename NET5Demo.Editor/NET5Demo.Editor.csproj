@@ -1,18 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="WaveEngine.Common" Version="3.0.0.6368-nightly" />
-    <PackageReference Include="WaveEngine.Components" Version="3.0.0.6368-nightly" />
-    <PackageReference Include="WaveEngine.Framework" Version="3.0.0.6368-nightly" />
-    <PackageReference Include="WaveEngine.Editor.Extension" Version="3.0.0.6368-nightly" />
+    <PackageReference Include="WaveEngine.Common" Version="3.0.0.6432-nightly" />
+    <PackageReference Include="WaveEngine.Components" Version="3.0.0.6432-nightly" />
+    <PackageReference Include="WaveEngine.Framework" Version="3.0.0.6432-nightly" />
+    <PackageReference Include="WaveEngine.Editor.Extension" Version="3.0.0.6432-nightly" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\NET5Demo\NET5Demo.csproj" />
   </ItemGroup>
-
 </Project>

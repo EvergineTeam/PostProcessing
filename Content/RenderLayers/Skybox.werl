@@ -1,25 +1,26 @@
 !WaveEngine.Assets.Exporters.RenderLayerMetaFile,WaveEngine.Assets
+Id: da9e0221-f777-4e5a-96c2-df012f2d7bf2
 DefaultProfile:
   ExcludeAsset: false
   Name: null
   Platform: Undefined
-Id: e35c59a9-26ab-4b4c-8210-4b1f21c31530
+ExportAsRaw: false
 Profiles: {}
 RenderLayerInfo:
-  Id: 1e709006-0a70-4832-8f64-32178408974d
-  Order: 2
+  Id: 46df81e6-8544-4a63-9773-40fcfbf65308
+  Order: -1
   RenderState:
     BlendFactor: null
     BlendState:
       AlphaToCoverageEnable: false
       IndependentBlendEnable: false
       RenderTarget0:
-        BlendEnable: true
+        BlendEnable: false
         BlendOperationAlpha: Add
         BlendOperationColor: Add
         ColorWriteChannels: All
-        DestinationBlendAlpha: InverseSourceAlpha
-        DestinationBlendColor: InverseSourceAlpha
+        DestinationBlendAlpha: Zero
+        DestinationBlendColor: Zero
         SourceBlendAlpha: One
         SourceBlendColor: One
       RenderTarget1:
@@ -104,7 +105,7 @@ RenderLayerInfo:
       StencilWriteMask: 255
     RasterizerState:
       AntialiasedLineEnable: false
-      CullMode: Back
+      CullMode: None
       DepthBias: 0
       DepthBiasClamp: 0.0
       DepthClipEnable: true
@@ -114,4 +115,4 @@ RenderLayerInfo:
       SlopeScaledDepthBias: 0.0
     SampleMask: null
     StencilReference: 0
-  SortMode: BackToFront
+  SortMode: FrontToBack

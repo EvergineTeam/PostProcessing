@@ -1,0 +1,46 @@
+!WaveEngine.Assets.Exporters.MaterialMetaFile,WaveEngine.Assets
+Id: 56ef59bb-b85e-4967-936f-ffdfa18e3581
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAsRaw: false
+MaterialInfo:
+  Id: ef21daeb-84f0-41ab-b910-788718922c6d
+  ActiveDirectives: []
+  AllowInstancing: false
+  EffectID: dd86a555-371c-4c72-8cf3-c32d5219af74
+  Layer: da9e0221-f777-4e5a-96c2-df012f2d7bf2
+  OrderBias: 0
+  Parameters:
+    - Name: World
+      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      ValueByteArray: AAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAPw==
+    - Name: CameraPosition
+      Type: WaveEngine.Mathematics.Vector4,WaveEngine.Mathematics
+      ValueByteArray: hdUav3Nclr937anAAAAAAA==
+    - Name: ViewProj
+      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      ValueByteArray: FmIlwIA5cL3nYeI9G1ziPdFzprFW6BZAoNdbPv/RWz59sZY+L9IDv1dzeD/7bHg/Q2kqNX8x6zX+7KtAyhuvQA==
+    - Name: Exposure
+      Type: System.Single
+      ValueByteArray: AACAPw==
+    - Name: EyeCount
+      Type: System.Int32
+      ValueByteArray: AQAAAA==
+    - Name: IblLuminance
+      Type: System.Single
+      ValueByteArray: AACAPw==
+    - Name: MultiviewViewProj
+      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      ValueByteArray: FmIlwIA5cL3nYeI9G1ziPdFzprFW6BZAoNdbPv/RWz59sZY+L9IDv1dzeD/7bHg/Q2kqNX8x6zX+7KtAyhuvQA==
+    - Name: Intensity
+      Type: System.Single
+      ValueByteArray: AACAPw==
+  Samplers:
+    - ID: 7d1e2792-2031-42bb-a67c-0dbd282be12a
+      Name: TextureSampler
+  Textures:
+    - ID: 7b60cf4f-b37a-43d5-95ef-a8ecab8862f8
+      Name: Texture
+Profiles: {}
