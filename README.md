@@ -12,6 +12,9 @@ This demo scene uses WaveEngine 3.1 with .NET 5 support. The new Post-processing
 
 Required Visual Studio 16.8 with .NET5 support
 
+Open the project with WaveEngine Editor and select the Build & Run option from File menu.
+![alt Build and Run](https://github.com/WaveEngine/NET5Demo/blob/main/Screenshots/BuildAndRun.png)
+
 ### Special Keys
  * W,S,D,A: Camera movement.
  * T: Enable/Disable camera traveling animation
