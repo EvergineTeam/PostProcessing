@@ -4,10 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="WaveEngine.Common" Version="3.0.0.6432-nightly" />
-    <PackageReference Include="WaveEngine.Components" Version="3.0.0.6432-nightly" />
-    <PackageReference Include="WaveEngine.Framework" Version="3.0.0.6432-nightly" />
-    <PackageReference Include="WaveEngine.Editor.Extension" Version="3.0.0.6432-nightly" />
+    <PackageReference Include="WaveEngine.Common" Version="3.0.0.6457-nightly" />
+    <PackageReference Include="WaveEngine.Components" Version="3.0.0.6457-nightly" />
+    <PackageReference Include="WaveEngine.Framework" Version="3.0.0.6457-nightly" />
+    <PackageReference Include="WaveEngine.Editor.Extension" Version="3.0.0.6457-nightly" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NET5Demo\NET5Demo.csproj" />

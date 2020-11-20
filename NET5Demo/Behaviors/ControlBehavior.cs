@@ -45,15 +45,15 @@ namespace NET5Demo.Behaviors
             this.ssrProperty = ssrEnabledNode.Inputs[0].Type as PostProcessingNodePortDirectiveType;
 
             // Dof
-            var dofEnabledNode = enabledNodes.Skip(4).Take(1).Single();
+            var dofEnabledNode = enabledNodes.Skip(5).Take(1).Single();
             this.dofProperty = dofEnabledNode.Inputs[0].Type as PostProcessingNodePortDirectiveType;
 
             // Bloom
-            var bloomEnabledNode = enabledNodes.Skip(5).Take(1).Single();
+            var bloomEnabledNode = enabledNodes.Skip(6).Take(1).Single();
             this.bloomProperty = bloomEnabledNode.Inputs[0].Type as PostProcessingNodePortDirectiveType;
 
             // Tonemapping
-            var toneEnabledNode = enabledNodes.Skip(6).Take(1).Single();
+            var toneEnabledNode = enabledNodes.Skip(7).Take(1).Single();
             this.toneProperty = toneEnabledNode.Inputs[0].Type as PostProcessingNodePortDirectiveType;
 
             return result;
