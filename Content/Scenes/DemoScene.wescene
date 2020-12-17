@@ -26,7 +26,7 @@ Items:
         Id: 2fce90a5-51e2-4ba9-b457-aef77d9a47c3
         IntensityMultiplier: 1.0
         IsEnabled: true
-        ReflectionProbe: null
+        ReflectionProbe: 507d0364-b21e-49f9-97f0-0b5615aa4a5f
     Children: []
     Id: 7aff8d20-d610-4dea-bd51-4bfe1ec34d5e
   - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
@@ -59,14 +59,17 @@ Items:
           G: 240
           R: 249
         ColorByTemperature: true
+        DepthBias: 0.0
         Illuminance: 10.0
         Intensity: 10.0
         IsEnabled: true
+        IsShadowEnabled: false
         LinearColor:
           A: 0.0
           B: 0.77908951
           G: 0.874792635
           R: 0.9453125
+        ShadowsOpacity: 0.0
         Temperature: 6500.0
       - !WaveEngine.Framework.Graphics.SunComponent,WaveEngine.Framework
         Id: c3cf5d0e-2b50-47ec-89be-f783c48feb86
@@ -112,6 +115,7 @@ Items:
       - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
         Id: 681d2269-282e-44fb-a479-083cf44e328c
         DebugBoundingbox: true
+        IsCastShadows: false
         IsCullingEnabled: false
         IsEnabled: true
         OrderBias: 0
@@ -455,6 +459,7 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: d2aa15af-4aa0-4d12-9b71-a036be492849
             DebugBoundingbox: true
+            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: true
             OrderBias: 0
@@ -495,6 +500,7 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: a842eef1-e1ad-414b-ba08-9771937a3b9d
             DebugBoundingbox: true
+            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: true
             OrderBias: 0
@@ -535,6 +541,7 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: 76c365b4-646b-4c56-881a-8b2bff491fec
             DebugBoundingbox: true
+            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: true
             OrderBias: 0
@@ -580,6 +587,7 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: e157df44-c9fd-4720-87ec-b3cbc278a17d
             DebugBoundingbox: true
+            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: true
             OrderBias: 0
@@ -625,6 +633,7 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: 021149b2-7600-4220-ad62-bb6f4e2cdac3
             DebugBoundingbox: true
+            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: true
             OrderBias: 0
@@ -678,6 +687,7 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: 33e7df25-0cd2-4628-a1a5-0a628ec3cc7f
             DebugBoundingbox: true
+            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: false
             OrderBias: 0
@@ -760,6 +770,7 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: 0ea34918-9134-4f20-85a4-b8c69aa61a35
             DebugBoundingbox: true
+            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: false
             OrderBias: 0
@@ -842,6 +853,7 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: 3c669b6c-1139-40c9-b666-50f42afd8acc
             DebugBoundingbox: true
+            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: false
             OrderBias: 0
@@ -924,6 +936,7 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: 9a3fd039-a5b3-46f3-852c-49be27cdbbb2
             DebugBoundingbox: true
+            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: false
             OrderBias: 0
@@ -984,6 +997,7 @@ Items:
       - !WaveEngine.Components.Graphics3D.PostProcessingGraphRenderer,WaveEngine.Components
         Id: 940cc7dc-0c3e-49b3-9eb0-7c208e591f8a
         DebugBoundingbox: true
+        IsCastShadows: false
         IsCullingEnabled: true
         IsEnabled: true
         IsGlobal: true
