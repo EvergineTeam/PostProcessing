@@ -5,7 +5,7 @@ using WaveEngine.Platform;
 
 namespace NET5Demo
 {
-    public class DemoApplication : Application
+    public partial class DemoApplication : Application
     {
         public DemoApplication()
         {
