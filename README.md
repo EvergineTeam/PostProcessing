@@ -1,6 +1,6 @@
 # WaveEngine NET5 Demo
 
-This demo scene uses WaveEngine 3.1 with .NET 5 support. The new Post-processing graph is used with several effects such as Screen Space Ambient Occlusion (SSAO), Screen Space Reflection (SSR), Temporal Antialiasing (TAA), Depth of Field (DoF), Bloom, and Tonemapping.
+This demo scene uses WaveEngine 3.2 with .NET 5 support. The new Post-processing graph is used with several effects such as Screen Space Ambient Occlusion (SSAO), Screen Space Reflection (SSR), Temporal Antialiasing (TAA), Depth of Field (DoF), Bloom, and Tonemapping.
 
 Video: https://www.youtube.com/watch?v=YlygX3Hdp5I
 
@@ -28,7 +28,7 @@ Open the project with WaveEngine Editor and select the Build & Run option from F
  * 5: Enable/Disable Tonemapping
 
 ----
-Powered by **[WaveEngine 3.1](http://www.waveengine.net)**
+Powered by **[WaveEngine 3.2](http://www.waveengine.net)**
 
 LET'S CONNECT!
 
