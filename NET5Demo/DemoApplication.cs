@@ -1,7 +1,7 @@
-using WaveEngine.Framework;
-using WaveEngine.Framework.Services;
-using WaveEngine.Framework.Threading;
-using WaveEngine.Platform;
+using Evergine.Framework;
+using Evergine.Framework.Services;
+using Evergine.Framework.Threading;
+using Evergine.Platform;
 
 namespace NET5Demo
 {
@@ -29,7 +29,7 @@ namespace NET5Demo
             var assetsService = this.Container.Resolve<AssetsService>();
 
             // Navigate to scene
-            var scene = assetsService.Load<DemoScene>(WaveContent.Scenes.DemoScene_wescene);
+            var scene = assetsService.Load<DemoScene>(EvergineContent.Scenes.DemoScene_wescene);
             ScreenContext screenContext = new ScreenContext(scene);
             screenContextManager.To(screenContext);
         }

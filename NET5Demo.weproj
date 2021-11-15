@@ -1,6 +1,6 @@
 Packages:
-  - Id: WaveEngine.Core
-    Version: 3.3.0.8524-preview
+  - Id: Evergine.Core
+    Version: 2021.11.12.3-preview
 Profiles:
   - AdditionalEffectTechniqueCombinations: null
     AlphaCompressionFormat: BC3_UNorm

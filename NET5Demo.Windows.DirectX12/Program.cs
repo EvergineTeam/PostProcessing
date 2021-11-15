@@ -1,8 +1,8 @@
 using System.Diagnostics;
-using WaveEngine.Common.Graphics;
-using WaveEngine.Framework;
-using WaveEngine.Framework.Graphics;
-using WaveEngine.Framework.Services;
+using Evergine.Common.Graphics;
+using Evergine.Framework;
+using Evergine.Framework.Graphics;
+using Evergine.Framework.Services;
 
 namespace NET5Demo.Windows.DirectX12
 {
@@ -16,14 +16,14 @@ namespace NET5Demo.Windows.DirectX12
             // Create Services
             uint width = 1280;
             uint height = 720;
-            WindowsSystem windowsSystem = new WaveEngine.Forms.FormsWindowsSystem();
+            WindowsSystem windowsSystem = new Evergine.Forms.FormsWindowsSystem();
             application.Container.RegisterInstance(windowsSystem);
             var window = windowsSystem.CreateWindow("NET5Demo - DX12", width, height);
 
             ConfigureGraphicsContext(application, window);
 			
 			// Creates XAudio device
-            var xaudio = new WaveEngine.XAudio2.XAudioDevice();
+            var xaudio = new Evergine.XAudio2.XAudioDevice();
             application.Container.RegisterInstance(xaudio);
 
             Stopwatch clockTimer = Stopwatch.StartNew();
@@ -44,7 +44,7 @@ namespace NET5Demo.Windows.DirectX12
 
         private static void ConfigureGraphicsContext(Application application, Window window)
         {
-            GraphicsContext graphicsContext = new WaveEngine.DirectX12.DX12GraphicsContext();
+            GraphicsContext graphicsContext = new Evergine.DirectX12.DX12GraphicsContext();
 
             graphicsContext.DefaultTextureUploaderSize = 256 * 1024 * 1024;
             graphicsContext.DefaultBufferUploaderSize = 64 * 1024 * 1024;

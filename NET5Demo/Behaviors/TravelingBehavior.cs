@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using WaveEngine.Common.Input.Keyboard;
-using WaveEngine.Framework;
-using WaveEngine.Framework.Graphics;
-using WaveEngine.Mathematics;
+using Evergine.Common.Input.Keyboard;
+using Evergine.Framework;
+using Evergine.Framework.Graphics;
+using Evergine.Mathematics;
 
 namespace NET5Demo.Behaviors
 {
@@ -60,7 +60,7 @@ namespace NET5Demo.Behaviors
                 return;
             }
 
-            if (keyboardDispacher.ReadKeyState(Keys.T) == WaveEngine.Common.Input.ButtonState.Pressing)
+            if (keyboardDispacher.ReadKeyState(Keys.T) == Evergine.Common.Input.ButtonState.Pressing)
             {
                 this.animating = !this.animating;
                 this.traveling = false;

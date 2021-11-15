@@ -1,4 +1,4 @@
-!WaveEngine.Assets.Exporters.MaterialMetaFile,WaveEngine.Assets
+!Evergine.Assets.Exporters.MaterialMetaFile,Evergine.Assets
 Id: 166bc70c-212f-41ac-86bf-ea92b5053b2c
 DefaultProfile:
   ExcludeAsset: false
@@ -16,13 +16,13 @@ MaterialInfo:
   OrderBias: 0
   Parameters:
     - Name: WorldViewProj
-      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
       ValueByteArray: FqySQAAAAAAAAAAAAAAAAAAAAACYMopADf9kvzD5ZL8AAAAAmjIKwAv/5L8u+eS/AAAAAHmCGjUf7ItAvRuPQA==
     - Name: World
-      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
       ValueByteArray: AAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAPw==
     - Name: Color
-      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Vector3,Evergine.Mathematics
       ValueByteArray: AACAPwAAgD/NzMw+
     - Name: Intensity
       Type: System.Single
