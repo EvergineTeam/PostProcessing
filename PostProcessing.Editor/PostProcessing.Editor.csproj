@@ -10,6 +10,6 @@
     <PackageReference Include="Evergine.Editor.Extension" Version="2021.11.12.3-preview" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NET5Demo\NET5Demo.csproj" />
+    <ProjectReference Include="..\PostProcessing\PostProcessing.csproj" />
   </ItemGroup>
 </Project>

@@ -5,7 +5,7 @@ using Evergine.Framework.Graphics;
 using Evergine.Framework.Services;
 using Evergine.Mathematics;
 
-namespace NET5Demo
+namespace PostProcessing
 {
     public class DemoScene : Scene
     {

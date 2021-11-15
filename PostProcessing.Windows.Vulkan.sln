@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28721.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET5Demo.Windows.DirectX12", "NET5Demo.Windows.DirectX12\NET5Demo.Windows.DirectX12.csproj", "{67B341B9-4BC0-4659-A308-B7135C168FC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostProcessing.Windows.Vulkan", "PostProcessing.Windows.Vulkan\PostProcessing.Windows.Vulkan.csproj", "{67B341B9-4BC0-4659-A308-B7135C168FC3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET5Demo", "NET5Demo\NET5Demo.csproj", "{FDD04AAD-6290-47C5-9F72-099A289325BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostProcessing", "PostProcessing\PostProcessing.csproj", "{FDD04AAD-6290-47C5-9F72-099A289325BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

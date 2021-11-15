@@ -4,7 +4,7 @@ using Evergine.Framework;
 using Evergine.Framework.Graphics;
 using Evergine.Framework.Services;
 
-namespace NET5Demo.Windows
+namespace PostProcessing.Windows.DirectX12
 {
     class Program
     {
@@ -18,7 +18,7 @@ namespace NET5Demo.Windows
             uint height = 720;
             WindowsSystem windowsSystem = new Evergine.Forms.FormsWindowsSystem();
             application.Container.RegisterInstance(windowsSystem);
-            var window = windowsSystem.CreateWindow("NET5Demo - DX11", width, height);
+            var window = windowsSystem.CreateWindow("PostProcessing - DX12", width, height);
 
             ConfigureGraphicsContext(application, window);
 			
@@ -44,7 +44,11 @@ namespace NET5Demo.Windows
 
         private static void ConfigureGraphicsContext(Application application, Window window)
         {
-            GraphicsContext graphicsContext = new Evergine.DirectX11.DX11GraphicsContext();
+            GraphicsContext graphicsContext = new Evergine.DirectX12.DX12GraphicsContext();
+
+            graphicsContext.DefaultTextureUploaderSize = 256 * 1024 * 1024;
+            graphicsContext.DefaultBufferUploaderSize = 64 * 1024 * 1024;
+
             graphicsContext.CreateDevice();
             SwapChainDescription swapChainDescription = new SwapChainDescription()
             {

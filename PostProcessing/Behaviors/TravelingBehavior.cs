@@ -6,7 +6,7 @@ using Evergine.Framework;
 using Evergine.Framework.Graphics;
 using Evergine.Mathematics;
 
-namespace NET5Demo.Behaviors
+namespace PostProcessing.Behaviors
 {
     public class TravelingBehavior : Behavior
     {

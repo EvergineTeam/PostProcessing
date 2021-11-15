@@ -4,7 +4,7 @@ using Evergine.Framework;
 using Evergine.Framework.Graphics;
 using Evergine.Framework.Services;
 
-namespace NET5Demo.Windows.Vulkan
+namespace PostProcessing.Windows.Vulkan
 {
     class Program
     {
@@ -18,7 +18,7 @@ namespace NET5Demo.Windows.Vulkan
             uint height = 720;
             WindowsSystem windowsSystem = new Evergine.Forms.FormsWindowsSystem();
             application.Container.RegisterInstance(windowsSystem);
-            var window = windowsSystem.CreateWindow("NET5Demo - Vulkan", width, height);
+            var window = windowsSystem.CreateWindow("PostProcessing - Vulkan", width, height);
 
             ConfigureGraphicsContext(application, window);
 			

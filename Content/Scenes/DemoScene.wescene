@@ -168,7 +168,7 @@ Items:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !NET5Demo.Behaviors.TravelingBehavior,NET5Demo
+      - !PostProcessing.Behaviors.TravelingBehavior,PostProcessing
         Id: 4a650637-4dbf-4afc-9ed6-ea5c1770aa34
         IsEnabled: true
         SmoothTime: 3.0
@@ -258,7 +258,7 @@ Items:
               Y: 1.0
               Z: 0.0
             UsePhysicalParameters: false
-          - !NET5Demo.Behaviors.AutoFocusBehavior,NET5Demo
+          - !PostProcessing.Behaviors.AutoFocusBehavior,PostProcessing
             Id: 037b9fe5-1da4-4140-8cc1-f18eff3d4d4c
             IsEnabled: true
             UpdateOrder: 0.5
@@ -1009,7 +1009,7 @@ Items:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !NET5Demo.Behaviors.ControlBehavior,NET5Demo
+      - !PostProcessing.Behaviors.ControlBehavior,PostProcessing
         Id: 9289c9b5-db89-4b8d-a8b4-6e9eac2789bb
         IsEnabled: true
         UpdateOrder: 0.5

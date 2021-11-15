@@ -6,7 +6,7 @@ using Evergine.Components.Graphics3D;
 using Evergine.Framework;
 using Evergine.Framework.Graphics;
 
-namespace NET5Demo.Behaviors
+namespace PostProcessing.Behaviors
 {
     public class ControlBehavior : Behavior
     {

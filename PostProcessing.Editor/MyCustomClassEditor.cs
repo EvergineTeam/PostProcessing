@@ -3,7 +3,7 @@ using Evergine.Common.Graphics;
 using Evergine.Editor.Extension;
 using Evergine.Editor.Extension.Attributes;
 
-namespace NET5Demo
+namespace PostProcessing
 {
     // Sample class for a custom Property editor.
     // This property editor will be used for a property or field of type MyCustomClass when is used in a component of an entity.

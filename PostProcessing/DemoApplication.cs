@@ -3,7 +3,7 @@ using Evergine.Framework.Services;
 using Evergine.Framework.Threading;
 using Evergine.Platform;
 
-namespace NET5Demo
+namespace PostProcessing
 {
     public partial class DemoApplication : Application
     {
