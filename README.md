@@ -1,22 +1,22 @@
-# WaveEngine NET5 Demo
+# Evergine Postprocessing Demo
 
-This demo scene uses WaveEngine 3.2 with .NET 5 support. The new Post-processing graph is used with several effects such as Screen Space Ambient Occlusion (SSAO), Screen Space Reflection (SSR), Temporal Antialiasing (TAA), Depth of Field (DoF), Bloom, and Tonemapping.
+This demo scene uses Evergine with .NET 6 support. The new Post-processing graph is used with several effects such as _Screen Space Ambient Occlusion (SSAO), Screen Space Reflection (SSR), Temporal Antialiasing (TAA), Depth of Field (DoF), Bloom,_ and _Tonemapping_.
 
 Video: https://www.youtube.com/watch?v=YlygX3Hdp5I
 
-![alt Screenshot0](https://github.com/WaveEngine/NET5Demo/blob/main/Screenshots/image00.png)
+![alt Screenshot0](Screenshots/image00.png)
 
-![alt Screenshot1](https://github.com/WaveEngine/NET5Demo/blob/main/Screenshots/image01.png)
+![alt Screenshot1](Screenshots/image01.png)
 
-![alt Screenshot2](https://github.com/WaveEngine/NET5Demo/blob/main/Screenshots/image02.png)
+![alt Screenshot2](Screenshots/image02.png)
 
 ## Build and Test
 
-Required Visual Studio 16.8 with .NET5 support
+Required Visual Studio 2022 with .NET6 support
 
-Open the project with WaveEngine Editor and select the Build & Run option from File menu.
+Open the project with Evergine Studio and select the Build & Run option from File menu.
 
-![alt Build and Run](https://github.com/WaveEngine/NET5Demo/blob/main/Screenshots/BuildAndRun.png)
+![alt Build and Run](Screenshots/BuildAndRun.png)
 
 ### Special Keys
  * W,S,D,A: Camera movement.
@@ -28,7 +28,7 @@ Open the project with WaveEngine Editor and select the Build & Run option from F
  * 5: Enable/Disable Tonemapping
 
 ----
-Powered by **[WaveEngine 3.2](http://www.waveengine.net)**
+Powered by **[Evergine](http://evergine.com)**
 
 LET'S CONNECT!
 
