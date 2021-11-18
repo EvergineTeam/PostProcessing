@@ -1,6 +1,6 @@
 Packages:
   - Id: Evergine.Core
-    Version: 2021.11.12.3-preview
+    Version: 2021.11.17.2-preview
 Profiles:
   - AdditionalEffectTechniqueCombinations: null
     AlphaCompressionFormat: BC3_UNorm
