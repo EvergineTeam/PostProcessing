@@ -11,7 +11,7 @@ namespace PostProcessing.Behaviors
     public class ControlBehavior : Behavior
     {
         [BindComponent]
-        private PostProcessingGraphRenderer volume;
+        private PostProcessingGraphRenderer volume = null;
 
         private bool EnabledSSAO;
         private bool EnabledSSR;
